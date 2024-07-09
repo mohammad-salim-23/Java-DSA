@@ -6,9 +6,9 @@ public class FindCycleUgraph{
     static class Edge{
         int src;
         int dest;
-        public Edge(int src,int dest){
-            this.src = src;
-            this.dest = dest;
+        public Edge(int s,int d){
+            this.src = s;
+            this.dest = d;
         }
     }
     public static void init(){
