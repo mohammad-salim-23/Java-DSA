@@ -1,4 +1,4 @@
-public class ZeroOneTab {
+public class ZeroOneMemoization {
 
     public static int knapsack(int val[],int wt[],int w,int n,int dp[][]){
         if(w==0 || n==0){
